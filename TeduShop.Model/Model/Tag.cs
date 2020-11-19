@@ -14,7 +14,7 @@ namespace TeduShop.Model.Model
         [MaxLength(50)]
         public string Name { set; get; }
         [Required]
-        [MaxLength(50)]
+        [MaxLength(56)]
         public string Type { set; get; }
         IEnumerable<ProductTag> productTags { set; get; }
     }
